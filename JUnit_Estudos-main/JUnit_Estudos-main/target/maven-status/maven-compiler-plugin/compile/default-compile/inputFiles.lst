@@ -1,0 +1,14 @@
+D:\jUnit\TestesUnitarios\src\main\java\br\ce\wcaquino\entidades\Usuario.java
+D:\jUnit\TestesUnitarios\src\main\java\br\ce\wcaquino\servicos\LocacaoService.java
+D:\jUnit\TestesUnitarios\src\main\java\br\ce\wcaquino\dao\LocacaoDAOFake.java
+D:\jUnit\TestesUnitarios\src\main\java\br\ce\wcaquino\entidades\Locacao.java
+D:\jUnit\TestesUnitarios\src\main\java\br\ce\wcaquino\servicos\Calculadora.java
+D:\jUnit\TestesUnitarios\src\main\java\br\ce\wcaquino\exceptions\FilmeSemEstoqueException.java
+D:\jUnit\TestesUnitarios\src\main\java\br\ce\wcaquino\entidades\Filme.java
+D:\jUnit\TestesUnitarios\src\main\java\br\ce\wcaquino\dao\LocacaoDAO.java
+D:\jUnit\TestesUnitarios\src\main\java\br\ce\wcaquino\servicos\EmailService.java
+D:\jUnit\TestesUnitarios\src\main\java\br\ce\wcaquino\exceptions\NaoPodeDividirPorZeroException.java
+D:\jUnit\TestesUnitarios\src\main\java\br\ce\wcaquino\exceptions\LocadoraException.java
+D:\jUnit\TestesUnitarios\src\main\java\br\ce\wcaquino\servicos\SPCService.java
+D:\jUnit\TestesUnitarios\src\main\java\br\ce\wcaquino\utils\DataUtils.java
+D:\jUnit\TestesUnitarios\src\main\java\br\ce\wcaquino\servicos\TimeService.java

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="testeomega.TelaLoginController">
+  <children>
+    <Pane layoutX="1.0" layoutY="4.0" prefHeight="411.0" prefWidth="600.0">
+      <children>
+        <Label layoutX="123.0" layoutY="115.0" text="Nome:">
+          <font>
+            <Font name="Times New Roman Bold Italic" size="16.0" fx:id="x3" />
+          </font>
+          <textFill>
+            <Color blue="0.600" green="0.000" red="0.048" fx:id="x1" />
+          </textFill>
+        </Label>
+        <TextField fx:id="fieldNomeCriarLogin" layoutX="181.0" layoutY="115.0" prefWidth="271.0" />
+        <TextField fx:id="fieldLoginCriarLogin" layoutX="181.0" layoutY="155.0" prefWidth="271.0" />
+        <TextField fx:id="fieldSenhaCriarLogin" layoutX="181.0" layoutY="198.0" prefWidth="271.0" />
+        <Button layoutX="249.0" layoutY="261.0" mnemonicParsing="false" onAction="#buttonCriarLogin" opacity="0.81" prefWidth="108.0" text="Criar" textFill="$x1">
+          <effect>
+            <DropShadow>
+              <color>
+                <Color blue="1.000" green="0.094" red="0.000" fx:id="x7" />
+              </color>
+            </DropShadow>
+          </effect>
+          <font>
+            <Font name="Times New Roman Bold" size="14.0" fx:id="x2" />
+          </font>
+        </Button>
+        <Button font="$x2" layoutX="478.0" layoutY="337.0" mnemonicParsing="false" onAction="#buttonVoltarLogin" opacity="0.81" prefWidth="87.0" text="Voltar" textFill="$x1">
+          <effect>
+            <DropShadow color="$x7" />
+          </effect>
+        </Button>
+        <Label layoutX="176.0" layoutY="31.0" text="CRIAR LOGIN" textFill="$x1">
+          <font>
+            <Font name="Times New Roman Bold" size="36.0" />
+          </font>
+        </Label>
+        <Label font="$x3" layoutX="91.0" layoutY="159.0" text="Criar Login:">
+          <textFill>
+            <Color blue="0.600" green="0.000" red="0.047" fx:id="x4" />
+          </textFill>
+        </Label>
+        <Label font="$x3" layoutX="89.0" layoutY="200.0" text="Criar Senha:" textFill="$x4" />
+        <Label id="LabelMensagemNome" fx:id="LabelMensagem01" layoutX="247.0" layoutY="137.0" opacity="1.0" prefWidth="108.0" text="*Campo obrigátório*" visible="false">
+          <font>
+            <Font name="Times New Roman Italic" size="12.0" fx:id="x5" />
+          </font>
+          <textFill>
+            <Color blue="0.000" green="0.000" red="0.600" fx:id="x6" />
+          </textFill>
+        </Label>
+        <Label id="LabelMensagemNome" fx:id="LabelMensagem02" font="$x5" layoutX="247.0" layoutY="177.0" opacity="1.0" prefWidth="108.0" text="*Campo obrigátório*" textFill="$x6" visible="false" />
+        <Label id="LabelMensagemNome" fx:id="LabelMensagem03" font="$x5" layoutX="246.0" layoutY="220.0" opacity="1.0" prefWidth="108.0" text="*Campo obrigátório*" textFill="$x6" visible="false" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

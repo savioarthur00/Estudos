@@ -1,0 +1,163 @@
+2023-07-11 14:33:09:339 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 14:33:27:3327 - [31merror[39m: [31mFuncionando na porta 3000[39m
+2023-07-11 14:33:41:3341 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 14:34:08:348 - [32minfo[39m: [32mconectado![39m
+2023-07-11 14:34:08:348 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 14:34:31:3431 - [32minfo[39m: [32mconectado![39m
+2023-07-11 14:34:31:3431 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 14:35:21:3521 - [32minfo[39m: [32mconectado![39m
+2023-07-11 14:35:21:3521 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 14:50:22:5022 - [32minfo[39m: [32mconectado![39m
+2023-07-11 14:50:22:5022 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 14:50:53:5053 - [32minfo[39m: [32mconectado![39m
+2023-07-11 14:50:53:5053 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 14:51:10:5110 - [32minfo[39m: [32mconectado![39m
+2023-07-11 14:51:10:5110 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 14:51:38:5138 - [32minfo[39m: [32mconectado![39m
+2023-07-11 14:51:38:5138 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 14:51:44:5144 - [35mhttp[39m: [35mGET /api/test 200 15 - 5.313 ms[39m
+[35m[39m
+2023-07-11 15:07:47:747 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:07:47:747 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:07:58:758 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:07:58:758 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:09:43:943 - [35mhttp[39m: [35mPOST /api//movie 200 30 - 4.621 ms[39m
+[35m[39m
+2023-07-11 15:10:44:1044 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:10:44:1044 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:11:11:1111 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:11:11:1111 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:12:49:1249 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:12:49:1249 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:12:58:1258 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:12:58:1258 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:13:20:1320 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:13:20:1320 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:13:30:1330 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:13:30:1330 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:13:43:1343 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:13:43:1343 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:14:04:144 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:14:04:144 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:14:11:1411 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:14:11:1411 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:14:15:1415 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:14:15:1415 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:14:28:1428 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:14:28:1428 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:14:48:1448 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:14:48:1448 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:14:55:1455 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:14:55:1455 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:16:45:1645 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:16:45:1645 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:33:24:3324 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:33:24:3324 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:33:44:3344 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:33:44:3344 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:35:46:3546 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:35:46:3546 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:38:56:3856 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:38:56:3856 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:39:05:395 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:39:05:395 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:40:56:4056 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:40:56:4056 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:41:47:4147 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:41:47:4147 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:42:23:4223 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:42:23:4223 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:42:57:4257 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:42:57:4257 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:43:13:4313 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:43:13:4313 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:43:28:4328 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:43:28:4328 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:43:53:4353 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:43:53:4353 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:44:02:442 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:44:02:442 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:44:08:448 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:44:08:448 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:44:21:4421 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:44:21:4421 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:45:11:4511 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:45:11:4511 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:45:50:4550 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:45:50:4550 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:46:00:460 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:46:00:460 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:46:07:467 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:46:07:467 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:46:21:4621 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:46:21:4621 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:47:37:4737 - [35mhttp[39m: [35mPOST /api//movie 422 114 - 13.560 ms[39m
+[35m[39m
+2023-07-11 15:48:21:4821 - [35mhttp[39m: [35mPOST /api//movie 422 114 - 3.526 ms[39m
+[35m[39m
+2023-07-11 15:48:39:4839 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:48:39:4839 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:48:42:4842 - [35mhttp[39m: [35mPOST /api//movie 422 66 - 22.436 ms[39m
+[35m[39m
+2023-07-11 15:49:58:4958 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2023-07-11 15:50:30:5030 - [35mhttp[39m: [35mPOST /api//movie - - - - ms[39m
+[35m[39m
+2023-07-11 15:52:32:5232 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2023-07-11 15:52:43:5243 - [35mhttp[39m: [35mPOST /api//movie - - - - ms[39m
+[35m[39m
+2023-07-11 15:53:12:5312 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:53:12:5312 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:53:53:5353 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2023-07-11 15:55:32:5532 - [35mhttp[39m: [35mPOST /api//movie - - - - ms[39m
+[35m[39m
+2023-07-11 15:55:50:5550 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:55:50:5550 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:55:50:5550 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2023-07-11 15:56:10:5610 - [35mhttp[39m: [35mPOST /api//movie - - - - ms[39m
+[35m[39m
+2023-07-11 15:56:22:5622 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:56:22:5622 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:56:26:5626 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2023-07-11 15:56:36:5636 - [35mhttp[39m: [35mPOST /api//movie - - - - ms[39m
+[35m[39m
+2023-07-11 15:56:49:5649 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:56:49:5649 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:57:07:577 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:57:07:577 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:57:57:5757 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2023-07-11 15:58:00:580 - [35mhttp[39m: [35mPOST /api//movie - - - - ms[39m
+[35m[39m
+2023-07-11 15:59:52:5952 - [32minfo[39m: [32mconectado![39m
+2023-07-11 15:59:52:5952 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 15:59:57:5957 - [32minfo[39m: [32mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2023-07-11 16:00:09:09 - [35mhttp[39m: [35mPOST /api//movie - - - - ms[39m
+[35m[39m
+2023-07-11 16:00:46:046 - [32minfo[39m: [32mconectado![39m
+2023-07-11 16:00:46:046 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 16:02:06:26 - [32minfo[39m: [32mconectado![39m
+2023-07-11 16:02:06:26 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 16:02:10:210 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2023-07-11 16:02:16:216 - [35mhttp[39m: [35mPOST /api//movie - - - - ms[39m
+[35m[39m
+2023-07-11 16:03:26:326 - [32minfo[39m: [32mconectado![39m
+2023-07-11 16:03:26:326 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 16:04:34:434 - [32minfo[39m: [32mDB Connected[39m
+2023-07-11 16:04:34:434 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 16:04:39:439 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2023-07-11 16:04:44:444 - [35mhttp[39m: [35mPOST /api//movie - - - - ms[39m
+[35m[39m
+2023-07-11 16:05:58:558 - [32minfo[39m: [32mDB Connected[39m
+2023-07-11 16:05:58:558 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 16:06:27:627 - [32minfo[39m: [32mDB Connected[39m
+2023-07-11 16:06:27:627 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 16:06:58:658 - [32minfo[39m: [32mDB Connected[39m
+2023-07-11 16:06:58:658 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 16:07:40:740 - [32minfo[39m: [32mDB Connected[39m
+2023-07-11 16:07:40:740 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 16:07:40:740 - [31merror[39m: [31mErro no sistema né: user is not allowed to do action [insert] on [test.movies][39m
+2023-07-11 16:07:44:744 - [35mhttp[39m: [35mPOST /api//movie - - - - ms[39m
+[35m[39m
+2023-07-11 16:08:10:810 - [32minfo[39m: [32mDB Connected[39m
+2023-07-11 16:08:10:810 - [32minfo[39m: [32mFuncionando na porta 3000[39m
+2023-07-11 16:08:14:814 - [32minfo[39m: [32mDB Connected[39m
+2023-07-11 16:08:14:814 - [32minfo[39m: [32mFuncionando na porta 3000[39m

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="br.ce.wcaquino.servicos.CalcularLocacaoTest" time="0.019" tests="4" errors="4" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\jUnit\TestesUnitarios\target\test-classes;D:\jUnit\TestesUnitarios\target\classes;C:\Users\Arthurcc\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Arthurcc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Arthurcc\.m2\repository\org\mockito\mockito-all\1.10.19\mockito-all-1.10.19.jar;C:\Users\Arthurcc\.m2\repository\org\powermock\powermock-api-mockito\1.6.6\powermock-api-mockito-1.6.6.jar;C:\Users\Arthurcc\.m2\repository\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar;C:\Users\Arthurcc\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\Arthurcc\.m2\repository\org\powermock\powermock-api-mockito-common\1.6.6\powermock-api-mockito-common-1.6.6.jar;C:\Users\Arthurcc\.m2\repository\org\powermock\powermock-api-support\1.6.6\powermock-api-support-1.6.6.jar;C:\Users\Arthurcc\.m2\repository\org\powermock\powermock-module-junit4\1.6.6\powermock-module-junit4-1.6.6.jar;C:\Users\Arthurcc\.m2\repository\org\powermock\powermock-module-junit4-common\1.6.6\powermock-module-junit4-common-1.6.6.jar;C:\Users\Arthurcc\.m2\repository\org\powermock\powermock-core\1.6.6\powermock-core-1.6.6.jar;C:\Users\Arthurcc\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\Arthurcc\.m2\repository\org\powermock\powermock-reflect\1.6.6\powermock-reflect-1.6.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="D:\jdk-19.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Arthurcc\AppData\Local\Temp\surefire17505063394535775568\surefirebooter-20230628162230606_3.jar C:\Users\Arthurcc\AppData\Local\Temp\surefire17505063394535775568 2023-06-28T16-22-29_789-jvmRun1 surefire-20230628162230606_1tmp surefire_0-20230628162230606_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\jUnit\TestesUnitarios\target\test-classes;D:\jUnit\TestesUnitarios\target\classes;C:\Users\Arthurcc\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Arthurcc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Arthurcc\.m2\repository\org\mockito\mockito-all\1.10.19\mockito-all-1.10.19.jar;C:\Users\Arthurcc\.m2\repository\org\powermock\powermock-api-mockito\1.6.6\powermock-api-mockito-1.6.6.jar;C:\Users\Arthurcc\.m2\repository\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar;C:\Users\Arthurcc\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\Arthurcc\.m2\repository\org\powermock\powermock-api-mockito-common\1.6.6\powermock-api-mockito-common-1.6.6.jar;C:\Users\Arthurcc\.m2\repository\org\powermock\powermock-api-support\1.6.6\powermock-api-support-1.6.6.jar;C:\Users\Arthurcc\.m2\repository\org\powermock\powermock-module-junit4\1.6.6\powermock-module-junit4-1.6.6.jar;C:\Users\Arthurcc\.m2\repository\org\powermock\powermock-module-junit4-common\1.6.6\powermock-module-junit4-common-1.6.6.jar;C:\Users\Arthurcc\.m2\repository\org\powermock\powermock-core\1.6.6\powermock-core-1.6.6.jar;C:\Users\Arthurcc\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\Arthurcc\.m2\repository\org\powermock\powermock-reflect\1.6.6\powermock-reflect-1.6.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Arthurcc"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="D:\jdk-19.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\jUnit\TestesUnitarios"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Arthurcc\AppData\Local\Temp\surefire17505063394535775568\surefirebooter-20230628162230606_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="Arthurcc"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Arthurcc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Arthurcc\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="D:\jUnit\TestesUnitarios"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\jdk-19.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\PowerShell\7\;C:\Program Files\PowerShell\7-preview\preview;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Arthurcc\AppData\Local\Microsoft\WindowsApps;D:\flutter\bin;C:\Users\Arthurcc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Arthurcc\AppData\Roaming\npm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git;D:\apache-maven-3.9.2-bin\apache-maven-3.9.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="DeveCalcularValorLocacaoConsiderandoDescontos[3� Filme 25%]" classname="br.ce.wcaquino.servicos.CalcularLocacaoTest" time="0">
+    <error message="Could not initialize class org.powermock.api.mockito.repackaged.ClassImposterizer$3" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.powermock.api.mockito.repackaged.ClassImposterizer$3
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.createProxyClass(ClassImposterizer.java:96)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:58)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:50)
+	at org.powermock.api.mockito.repackaged.CglibMockMaker.createMock(CglibMockMaker.java:25)
+	at org.powermock.api.mockito.internal.mockmaker.PowerMockMaker.createMock(PowerMockMaker.java:47)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1285)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.CalcularLocacaoTest.setup(CalcularLocacaoTest.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError [in thread "main"]
+	at org.mockito.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:167)
+	at org.mockito.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at org.mockito.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:217)
+	at org.mockito.cglib.core.KeyFactory$Generator.create(KeyFactory.java:145)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:117)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:109)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:105)
+	at org.mockito.cglib.proxy.Enhancer.<clinit>(Enhancer.java:70)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.createProxyClass(ClassImposterizer.java:96)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:58)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:50)
+	at org.powermock.api.mockito.repackaged.CglibMockMaker.createMock(CglibMockMaker.java:25)
+	at org.powermock.api.mockito.internal.mockmaker.PowerMockMaker.createMock(PowerMockMaker.java:47)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1285)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.CalculadoraMockTest.setup(CalculadoraMockTest.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	... 14 more
+]]></error>
+  </testcase>
+  <testcase name="DeveCalcularValorLocacaoConsiderandoDescontos[4� Filme 50%]" classname="br.ce.wcaquino.servicos.CalcularLocacaoTest" time="0">
+    <error message="Could not initialize class org.powermock.api.mockito.repackaged.ClassImposterizer$3" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.powermock.api.mockito.repackaged.ClassImposterizer$3
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.createProxyClass(ClassImposterizer.java:96)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:58)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:50)
+	at org.powermock.api.mockito.repackaged.CglibMockMaker.createMock(CglibMockMaker.java:25)
+	at org.powermock.api.mockito.internal.mockmaker.PowerMockMaker.createMock(PowerMockMaker.java:47)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1285)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.CalcularLocacaoTest.setup(CalcularLocacaoTest.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError [in thread "main"]
+	at org.mockito.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:167)
+	at org.mockito.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at org.mockito.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:217)
+	at org.mockito.cglib.core.KeyFactory$Generator.create(KeyFactory.java:145)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:117)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:109)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:105)
+	at org.mockito.cglib.proxy.Enhancer.<clinit>(Enhancer.java:70)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.createProxyClass(ClassImposterizer.java:96)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:58)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:50)
+	at org.powermock.api.mockito.repackaged.CglibMockMaker.createMock(CglibMockMaker.java:25)
+	at org.powermock.api.mockito.internal.mockmaker.PowerMockMaker.createMock(PowerMockMaker.java:47)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1285)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.CalculadoraMockTest.setup(CalculadoraMockTest.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	... 14 more
+]]></error>
+  </testcase>
+  <testcase name="DeveCalcularValorLocacaoConsiderandoDescontos[5� Filme 75%]" classname="br.ce.wcaquino.servicos.CalcularLocacaoTest" time="0">
+    <error message="Could not initialize class org.powermock.api.mockito.repackaged.ClassImposterizer$3" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.powermock.api.mockito.repackaged.ClassImposterizer$3
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.createProxyClass(ClassImposterizer.java:96)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:58)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:50)
+	at org.powermock.api.mockito.repackaged.CglibMockMaker.createMock(CglibMockMaker.java:25)
+	at org.powermock.api.mockito.internal.mockmaker.PowerMockMaker.createMock(PowerMockMaker.java:47)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1285)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.CalcularLocacaoTest.setup(CalcularLocacaoTest.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError [in thread "main"]
+	at org.mockito.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:167)
+	at org.mockito.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at org.mockito.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:217)
+	at org.mockito.cglib.core.KeyFactory$Generator.create(KeyFactory.java:145)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:117)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:109)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:105)
+	at org.mockito.cglib.proxy.Enhancer.<clinit>(Enhancer.java:70)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.createProxyClass(ClassImposterizer.java:96)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:58)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:50)
+	at org.powermock.api.mockito.repackaged.CglibMockMaker.createMock(CglibMockMaker.java:25)
+	at org.powermock.api.mockito.internal.mockmaker.PowerMockMaker.createMock(PowerMockMaker.java:47)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1285)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.CalculadoraMockTest.setup(CalculadoraMockTest.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	... 14 more
+]]></error>
+  </testcase>
+  <testcase name="DeveCalcularValorLocacaoConsiderandoDescontos[6� Filme 100%]" classname="br.ce.wcaquino.servicos.CalcularLocacaoTest" time="0">
+    <error message="Could not initialize class org.powermock.api.mockito.repackaged.ClassImposterizer$3" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.powermock.api.mockito.repackaged.ClassImposterizer$3
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.createProxyClass(ClassImposterizer.java:96)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:58)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:50)
+	at org.powermock.api.mockito.repackaged.CglibMockMaker.createMock(CglibMockMaker.java:25)
+	at org.powermock.api.mockito.internal.mockmaker.PowerMockMaker.createMock(PowerMockMaker.java:47)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1285)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.CalcularLocacaoTest.setup(CalcularLocacaoTest.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError [in thread "main"]
+	at org.mockito.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:167)
+	at org.mockito.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at org.mockito.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:217)
+	at org.mockito.cglib.core.KeyFactory$Generator.create(KeyFactory.java:145)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:117)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:109)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:105)
+	at org.mockito.cglib.proxy.Enhancer.<clinit>(Enhancer.java:70)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.createProxyClass(ClassImposterizer.java:96)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:58)
+	at org.powermock.api.mockito.repackaged.ClassImposterizer.imposterise(ClassImposterizer.java:50)
+	at org.powermock.api.mockito.repackaged.CglibMockMaker.createMock(CglibMockMaker.java:25)
+	at org.powermock.api.mockito.internal.mockmaker.PowerMockMaker.createMock(PowerMockMaker.java:47)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1285)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.CalculadoraMockTest.setup(CalculadoraMockTest.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	... 14 more
+]]></error>
+  </testcase>
+</testsuite>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="497.0" prefWidth="692.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="testeomega.TelasAlunoController">
+  <children>
+    <Pane layoutX="0.0" layoutY="0.0" prefHeight="497.0" prefWidth="692.0">
+      <children>
+        <Label fx:id="LabelMensagemNome" layoutX="564.0" layoutY="53.0" opacity="1.0" prefWidth="108.0" text="*Campo obrigátório*" visible="false">
+          <font>
+            <Font name="Times New Roman Italic" size="12.0" fx:id="x7" />
+          </font>
+          <textFill>
+            <Color blue="0.000" green="0.000" red="0.600" fx:id="x8" />
+          </textFill>
+        </Label>
+        <Label layoutX="44.0" layoutY="53.0" text="Nome:">
+          <font>
+            <Font name="Times New Roman Bold Italic" size="15.0" fx:id="x1" />
+          </font>
+          <textFill>
+            <Color blue="0.600" green="0.096" red="0.000" fx:id="x6" />
+          </textFill>
+        </Label>
+        <TextField fx:id="fieldNomeAluno" layoutX="88.0" layoutY="50.0" prefWidth="476.0" />
+        <Label layoutX="332.0" layoutY="50.0" text="" />
+        <TextField fx:id="fieldRGAluno" layoutX="283.0" layoutY="83.0" prefWidth="124.0" />
+        <TextField fx:id="fieldDataAluno" layoutX="532.0" layoutY="80.0" prefWidth="124.0" />
+        <TextField fx:id="fieldCidadeAluno" layoutX="95.0" layoutY="148.0" prefWidth="169.0" />
+        <TextField fx:id="fieldNascionalidadeAluno" layoutX="499.0" layoutY="146.0" prefWidth="147.0" />
+        <TextField fx:id="fieldUFAluno" layoutX="313.0" layoutY="146.0" prefWidth="62.0" />
+        <TextField fx:id="fieldSexoAluno" layoutX="88.0" layoutY="178.0" prefWidth="118.0" />
+        <Label layoutX="198.0" layoutY="9.0" text="DADOS DO ALUNO" textFill="#003d99">
+          <font>
+            <Font name="Times New Roman Italic" size="32.0" fx:id="x3" />
+          </font>
+        </Label>
+        <TextField fx:id="fieldNomeResponsavel" layoutX="99.0" layoutY="321.0" prefWidth="470.0" />
+        <TextField fx:id="fieldCelular" layoutX="95.0" layoutY="366.0" prefWidth="200.0" />
+        <TextField fx:id="fieldEmail" layoutX="364.0" layoutY="366.0" prefWidth="200.0" />
+        <Label font="$x1" layoutX="249.0" layoutY="85.0" text="RG:">
+          <textFill>
+            <Color blue="0.600" green="0.094" red="0.000" fx:id="x2" />
+          </textFill>
+        </Label>
+        <Label font="$x1" layoutX="396.0" layoutY="148.0" text="Nacionalidade:" textFill="$x2" />
+        <Label font="$x1" layoutX="45.0" layoutY="180.0" text="Sexo:" textFill="$x2" />
+        <Label font="$x1" layoutX="411.0" layoutY="85.0" text="Data Nascismento:" textFill="$x2" />
+        <Label font="$x1" layoutX="46.0" layoutY="148.0" text="Cidade:" textFill="$x2" />
+        <Label font="$x1" layoutX="275.0" layoutY="148.0" text="UF:" textFill="$x2" />
+        <Label font="$x1" layoutX="45.0" layoutY="85.0" text="CPF:" textFill="$x2" />
+        <Label font="$x3" layoutX="164.0" layoutY="249.0" text="DADOS DO RESPONSÁVEL">
+          <textFill>
+            <Color blue="0.600" green="0.239" red="0.000" fx:id="x4" />
+          </textFill>
+        </Label>
+        <Label font="$x1" layoutX="45.0" layoutY="321.0" text="Nome:" textFill="$x2" />
+        <Label font="$x1" layoutX="39.0" layoutY="368.0" text="Celular:" textFill="$x2" />
+        <Label font="$x1" layoutX="313.0" layoutY="368.0" text="Email:" textFill="$x2" />
+        <Button layoutX="595.0" layoutY="447.0" mnemonicParsing="false" onAction="#AdicionarBotao" text="Adicionar" textFill="#0c0099">
+          <font>
+            <Font name="Times New Roman Bold" size="14.0" fx:id="x5" />
+          </font>
+        </Button>
+        <Button font="$x5" layoutX="612.0" layoutY="17.0" mnemonicParsing="false" onAction="#botaoMenu" text="MENU" textFill="$x6" />
+        <TextField fx:id="textFieldCPFDOALUNO" layoutX="79.0" layoutY="80.0" prefWidth="169.0" />
+        <Label id="LabelMensagemNome" fx:id="LabelMensagem" font="$x7" layoutX="83.0" layoutY="105.0" opacity="1.0" prefWidth="108.0" text="*Campo obrigátório*" textFill="$x8" visible="false" />
+        <Label id="LabelMensagemNome" fx:id="LabelMensagem1" font="$x7" layoutX="290.0" layoutY="109.0" opacity="1.0" prefWidth="108.0" text="*Campo obrigátório*" textFill="$x8" visible="false" />
+        <Label id="LabelMensagemNome" fx:id="LabelMensagem2" font="$x7" layoutX="290.0" layoutY="168.0" opacity="1.0" prefWidth="108.0" text="*Campo obrigátório*" textFill="$x8" visible="false" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>
